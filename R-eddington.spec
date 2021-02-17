@@ -4,7 +4,7 @@
 #
 Name     : R-eddington
 Version  : 2.1.1
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/eddington_2.1.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eddington_2.1.1.tar.gz
 Summary  : Compute a Cyclist's Eddington Number
@@ -12,7 +12,6 @@ Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-eddington-lib = %{version}-%{release}
 Requires: R-Rcpp
-Requires: R-dplyr
 BuildRequires : R-Rcpp
 BuildRequires : R-dplyr
 BuildRequires : buildreq-R
@@ -37,10 +36,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1613580706
+export SOURCE_DATE_EPOCH=1613582072
 
 %install
-export SOURCE_DATE_EPOCH=1613580706
+export SOURCE_DATE_EPOCH=1613582072
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
