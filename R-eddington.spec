@@ -7,7 +7,7 @@
 #
 Name     : R-eddington
 Version  : 4.2.0
-Release  : 27
+Release  : 28
 URL      : https://cran.r-project.org/src/contrib/eddington_4.2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/eddington_4.2.0.tar.gz
 Summary  : Compute a Cyclist's Eddington Number
